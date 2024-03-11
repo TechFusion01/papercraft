@@ -104,7 +104,10 @@ input, select, textarea {
 
 input:focus, textarea:focus {
 
-  border-color: #FD143A; }
+  /* border-color: #FD143A;  */
+  border-color: black; 
+
+}
 
 
 
