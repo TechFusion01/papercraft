@@ -76,7 +76,7 @@ body {
 
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,  h3, h4, h5, h6 {
 
   margin: 0 0 15px;
 
@@ -88,11 +88,29 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'DM Serif Display', serif;
 
-  color: #1b1644;
+  color: black;
 
   line-height: normal;
 
   letter-spacing: 1px; }
+
+  h2,h5 {
+
+    margin: 0 0 15px;
+  
+    padding: 0;
+  
+    letter-spacing: 0;
+  
+    font-weight: 500;
+  
+    font-family: 'DM Serif Display', serif;
+  
+    color: #0092d1;
+  
+    line-height: normal;
+  
+    letter-spacing: 1px; }
 
 
 
@@ -104,7 +122,7 @@ input, select, textarea {
 
 input:focus, textarea:focus {
 
-  /* border-color: Black;  */
+  /* border-color: #0092d1;  */
   border-color: black; 
 
 }
@@ -173,7 +191,7 @@ input:focus, textarea:focus {
 
   height: 80px;
 
-  border: 5px solid Black;
+  border: 5px solid #0092d1;
 
   border-right-color: #eee;
 
@@ -247,7 +265,7 @@ input:focus, textarea:focus {
 
 .text-theme-color {
 
-  color: Black; }
+  color: #0092d1; }
 
 
 
@@ -267,19 +285,19 @@ input:focus, textarea:focus {
 
 .bg-theme {
 
-  background-color: Black; }
+  background-color: #0092d1; }
 
 
 
 .theme-overlay[data-overlay-dark]:before {
 
-  background: Black; }
+  background: #0092d1; }
 
 
 
 a:hover, a:active {
 
-  color: Black;
+  color: #0092d1;
 
   text-decoration: none; }
 
@@ -313,11 +331,11 @@ a:hover, a:active {
 
   background: transparent;
 
-  border: 2px solid Black;
+  border: 2px solid #0092d1;
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 1px;
 
-  color: Black;
+  color: #0092d1;
 
   letter-spacing: .5px;
 
@@ -335,11 +353,11 @@ a:hover, a:active {
 
   .btn:hover, .btn:active, .btn:focus {
 
-    background: Black;
+    background: #0092d1;
 
     color: #fff;
 
-    border-color: Black;
+    border-color: #0092d1;
 
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px; }
 
@@ -351,17 +369,17 @@ a:hover, a:active {
 
   .btn.fill {
 
-    background: Black;
+    background: #0092d1;
 
     color: #fff;
 
-    border-color: Black; }
+    border-color: #0092d1; }
 
     .btn.fill:hover {
 
-      color: Black;
+      color: #0092d1;
 
-      border-color: Black;
+      border-color: #0092d1;
 
       background: transparent; }
 
@@ -561,7 +579,7 @@ a:hover, a:active {
 
     background-color: transparent;
 
-    border-color: Black;
+    border-color: black;
 
     -webkit-transform: scale(0.9);
 
@@ -649,7 +667,7 @@ a:hover, a:active {
 
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 
-  border-bottom: 1px solid Black;
+  border-bottom: 1px solid #0092d1;
 
   letter-spacing: 3px; }
 
@@ -799,7 +817,7 @@ a:hover, a:active {
 
     .navbar.bg-black .navbar-nav .nav-link.active {
 
-      color: Black; }
+      color: #0092d1; }
 
     .navbar.bg-black.nav-scroll .navbar-nav .nav-link {
 
@@ -807,7 +825,7 @@ a:hover, a:active {
 
     .navbar.bg-black .navbar-nav .nav-link:hover, .navbar.bg-black.nav-scroll .navbar-nav .nav-link.active {
 
-      color: Black; }
+      color: #0092d1; }
 
     .navbar.bg-black .navbar-nav .nav-link.btn.small:hover, .navbar.bg-black .navbar-nav .nav-link.btn.small.active {
 
@@ -821,7 +839,7 @@ a:hover, a:active {
 
   font-weight: 600;
 
-  color: white;
+  color: black;
 
   letter-spacing: 1px;
 
@@ -837,7 +855,7 @@ a:hover, a:active {
 
   .navbar .navbar-nav .nav-link:hover {
 
-    color: green; }
+    color: #0092d1; }
 
   .navbar .navbar-nav .nav-link.active {
 
@@ -849,7 +867,7 @@ a:hover, a:active {
 
 .nav-scroll {
 
-  background: whi;
+  background: white;
 
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6);
 
@@ -861,7 +879,7 @@ a:hover, a:active {
 
   width: 100%;
 
-  transition: transform .5s;
+  /* transition: transform .5s; */
 
   transform: translateY(100px);
 
@@ -879,7 +897,7 @@ a:hover, a:active {
 
 .navbar-toggler {
 
-  background: Black;
+  background: #0092d1;
 
   width: 40px;
 
@@ -1143,7 +1161,7 @@ a:hover, a:active {
 
   .nav-scroll .navbar-collapse .active {
 
-    color: Black !important; }
+    color: #0092d1 !important; }
 
   .nav-scroll .navbar-collapse .btn.active {
 
@@ -1221,7 +1239,7 @@ a:hover, a:active {
 
   top: 0;
 
-  background: Black;
+  background: #0092d1;
 
   z-index: 99999;
 
@@ -1399,7 +1417,7 @@ a:hover, a:active {
 
     width: 100%;
 
-    background: Black;
+    background: #0092d1;
 
     display: block; }
 
@@ -1781,7 +1799,7 @@ a:hover, a:active {
 
     line-height: 140px;
 
-    color: Black;
+    color: #0092d1;
 
     background: #fff;
 
@@ -1961,7 +1979,7 @@ a:hover, a:active {
 
     .team-style .team-details span {
 
-      color: Black;
+      color: #0092d1;
 
       font-size: 15px;
 
@@ -1985,7 +2003,7 @@ a:hover, a:active {
 
     padding: 30px 20px;
 
-    background: Black;
+    background: #0092d1;
 
     text-align: center;
 
@@ -2091,7 +2109,7 @@ a:hover, a:active {
 
 .testimonial small {
 
-  color: Black; }
+  color: #0092d1; }
 
 .testimonial .quote {
 
@@ -2099,7 +2117,7 @@ a:hover, a:active {
 
   line-height: 180px;
 
-  color: Black;
+  color: #0092d1;
 
   margin-top: -2rem;
 
@@ -2149,7 +2167,7 @@ a:hover, a:active {
 
     .blog-card h3 a:hover {
 
-      color: Black; }
+      color: #0092d1; }
 
 
 
@@ -2227,7 +2245,7 @@ a:hover, a:active {
 
       .blog .item .content .read-more:hover {
 
-        color: Black;
+        color: #0092d1;
 
         text-decoration: none; }
 
@@ -2303,7 +2321,7 @@ a:hover, a:active {
 
     .blog-header a.active {
 
-      color: Black; }
+      color: #0092d1; }
 
 
 
@@ -2461,7 +2479,7 @@ a:hover, a:active {
 
 .blog-list-simple-text > span {
 
-  color: Black;
+  color: #0092d1;
 
   font-size: 13px;
 
@@ -2511,7 +2529,7 @@ a:hover, a:active {
 
     .blog-list-simple-text h4 a:hover {
 
-      color: Black; }
+      color: #0092d1; }
 
 .blog-list-simple-text ul {
 
@@ -2529,7 +2547,7 @@ a:hover, a:active {
 
     .blog-list-simple-text ul li i {
 
-      color: Black;
+      color: #0092d1;
 
       margin-right: 5px;
 
@@ -2845,7 +2863,7 @@ a:hover, a:active {
 
       height: 1px;
 
-      background: Black;
+      background: #0092d1;
 
       position: absolute;
 
@@ -2927,7 +2945,7 @@ a:hover, a:active {
 
   color: #fff;
 
-  background: Black;
+  background: #0092d1;
 
   border: 0;
 
@@ -3121,7 +3139,7 @@ a:hover, a:active {
 
   background-color: #ffffff;
 
-  border-color: Black;
+  border-color: #0092d1;
 
   outline: 0;
 
@@ -3175,9 +3193,9 @@ a:hover, a:active {
 
   border-radius: 50%;
 
-  background: #000;
+  background: #0092d1;
 
-  border: 1px solid #2a2a2a;
+  /* border: 1px solid #2a2a2a; */
 
   width: 35px;
 
